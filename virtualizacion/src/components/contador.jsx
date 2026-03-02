@@ -1,3 +1,4 @@
+//virtualizacion\src\components\contador.jsx
 import { useState } from "react";
 import React from "react";
 import Texto1 from "./texto1";

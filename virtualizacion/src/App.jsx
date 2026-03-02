@@ -1,3 +1,4 @@
+//virtualizacion\src\App.jsx
 import "./App.css";
 import Contador from "./components/contador";
 import Lista from "./components/lista";
@@ -7,19 +8,38 @@ function App() {
   const navigate = useNavigate();
   return (
     <div>
-      <nav>
-        <button onClick={() => navigate("/")}>
-          Ir a Contador
-        </button>
-
-        <button onClick={() => navigate("/lista")}>
-          Ir a Lista Dinámica
-        </button>
-      </nav>
-
       <Routes>
-        <Route path="/" element={<Contador />} />
-        <Route path="/lista" element={<Lista />} />
+        <Route
+          path="/"
+          element={
+            <nav>
+              <button onClick={() => navigate("/contador")}>
+                Ir a Contador
+              </button>
+              <button onClick={() => navigate("/lista")}>
+                Ir a Lista Dinámica
+              </button>
+            </nav>
+          }
+        />
+        <Route
+          path="/contador"
+          element={
+            <div>
+              <button onClick={() => navigate("/")}>Volver al inicio</button>
+              <Contador />
+            </div>
+          }
+        />
+        <Route
+          path="/lista"
+          element={
+            <div>
+              <button onClick={() => navigate("/")}>Volver al inicio</button>
+              <Lista />
+            </div>
+          }
+        />
       </Routes>
     </div>
   );

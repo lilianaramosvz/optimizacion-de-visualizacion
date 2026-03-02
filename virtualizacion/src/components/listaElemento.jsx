@@ -1,3 +1,4 @@
+//virtualizacion\src\components\listaElemento.jsx
 import React from "react";
 
 const ListaElem = React.memo(({ item, onLike, onDelete }) => {
@@ -7,13 +8,9 @@ const ListaElem = React.memo(({ item, onLike, onDelete }) => {
     <div>
       <span> {item.name} </span>
 
-      <button onClick={() => onLike(item.id)}>
-        Me gusta {item.likes}
-      </button>
+      <button onClick={() => onLike(item.id)}>Me gusta {item.likes}</button>
 
-      <button onClick={() => onDelete(item.id)}>
-        Eliminar
-      </button>
+      <button onClick={() => onDelete(item.id)}>Eliminar</button>
     </div>
   );
 });

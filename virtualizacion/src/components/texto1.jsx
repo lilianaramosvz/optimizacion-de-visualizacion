@@ -1,3 +1,4 @@
+//virtualizacion\src\components\texto1.jsx
 import React from "react";
 
 const Texto1 = React.memo(() => {
