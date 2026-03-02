@@ -2,6 +2,7 @@
 import "./App.css";
 import Contador from "./components/contador";
 import Lista from "./components/lista";
+import NotFound from "./components/NotFound";
 import { Routes, Route, useNavigate } from "react-router-dom";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
             </div>
           }
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
