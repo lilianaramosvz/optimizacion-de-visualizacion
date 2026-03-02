@@ -37,7 +37,7 @@ Francisco Ismael López Gómez
 
 | Integrante del equipo | Aportación |
 |-----------------------|------------|
-| Liliana               | Desarrollo del documento acerca del virtual DOM. |
+| Liliana               | Desarrollo del documento acerca del virtual DOM, página con contador. |
 | Anna Sofía            |  |
 | Diana Fernanda        |  |
 | Leonardo              |  |
