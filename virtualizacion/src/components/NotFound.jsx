@@ -1,9 +1,8 @@
+//virtualizacion\src\components\NotFound.jsx
 function NotFound() {
   return (
     <>
-      <h1>
-        404 NOT FOUND
-      </h1>
+      <h1>404 NOT FOUND</h1>
     </>
   );
 }
