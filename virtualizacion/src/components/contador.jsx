@@ -6,10 +6,6 @@ import Texto3 from "./texto3";
 
 function Contador() {
   const [contador, setContador] = useState(0);
-  <button onClick={() => setContador(contador + 1)}>
-    Contador: {contador}
-  </button>;
-
   return (
     <div>
       <h2>Contador</h2>

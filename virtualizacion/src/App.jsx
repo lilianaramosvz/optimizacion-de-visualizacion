@@ -1,18 +1,27 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Contador from "./components/contador";
+import Lista from "./components/lista";
+import { Routes, Route, useNavigate } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const navigate = useNavigate();
   return (
-    <>
-      <div>
-        <Contador />
-      </div>
-    </>
+    <div>
+      <nav>
+        <button onClick={() => navigate("/")}>
+          Ir a Contador
+        </button>
+
+        <button onClick={() => navigate("/lista")}>
+          Ir a Lista Dinámica
+        </button>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Contador />} />
+        <Route path="/lista" element={<Lista />} />
+      </Routes>
+    </div>
   );
 }
 
