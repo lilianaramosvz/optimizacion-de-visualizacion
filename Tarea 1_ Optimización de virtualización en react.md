@@ -40,4 +40,4 @@ Francisco Ismael López Gómez
 | Liliana               | Desarrollo del documento acerca del virtual DOM y su relación con React.memo y map(), implementación de la página principal con contador y aplicación de React.memo. |
 | Anna Sofía            | Implementación del componente Contador, manejo del estado con useState y optimización de los componentes hijos usando React.memo.|
 | Diana Fernanda        | Desarrollo de la lista dinámica utilizando map(), implementación de la funcionalidad de agregar y eliminar elementos. |
-| Leonardo              |  |
+| Leonardo              | Implementación de la arquitectura de navegación mediante rutas y la optimización de componentes hijos para reutilizar. |
