@@ -38,6 +38,6 @@ Francisco Ismael López Gómez
 | Integrante del equipo | Aportación |
 |-----------------------|------------|
 | Liliana               | Desarrollo del documento acerca del virtual DOM, página con contador. |
-| Anna Sofía            |  |
+| Anna Sofía            | Implementación del componente Contador, manejo del estado con useState y optimización de los componentes hijos usando React.memo.|
 | Diana Fernanda        |  |
 | Leonardo              |  |
