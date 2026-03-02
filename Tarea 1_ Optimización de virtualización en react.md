@@ -39,5 +39,5 @@ Francisco Ismael López Gómez
 |-----------------------|------------|
 | Liliana               | Desarrollo del documento acerca del virtual DOM, página con contador. |
 | Anna Sofía            | Implementación del componente Contador, manejo del estado con useState y optimización de los componentes hijos usando React.memo.|
-| Diana Fernanda        |  |
+| Diana Fernanda        | Desarrollo de la lista dinámica utilizando map(), implementación de la funcionalidad de agregar y eliminar elementos. |
 | Leonardo              |  |
